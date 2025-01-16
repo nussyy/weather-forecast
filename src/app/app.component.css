@@ -1,0 +1,35 @@
+.weather-dashboard {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+  }
+  
+  .weather-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .forecast-days {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+  }
+  
+  .day {
+    padding: 10px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+  }
+  
